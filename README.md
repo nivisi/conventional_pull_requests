@@ -96,5 +96,5 @@ Contributions to improve the Validator GitHub Action are welcome. Feel free to f
 - Allow to restrict ticket prefixes
 
 <!-- References -->
-[version-img]: https://img.shields.io/badge/action-v1.0.0-black?logo=github
-[version-url]: https://github.com/marketplace/actions/conventional_pull_requests
+[version-img]: https://img.shields.io/badge/action-v1.0.0+1-black?logo=github
+[version-url]: https://github.com/marketplace/actions/conventional-pull-requests
