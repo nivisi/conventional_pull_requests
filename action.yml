@@ -1,0 +1,23 @@
+name: "Conventional Pull Requests"
+description: "Checks that PR names follow the conventional commit structure. Tries to fix issues if possible."
+branding:
+  icon: git-pull-request
+  color: green
+inputs:
+  github-token:
+    description: "GitHub Access Token"
+    default: ${{ github.token }}
+    required: true
+  message-to-post:
+    description: "A message that will be posted as a comment. If not provided, no message is posted."
+    required: false
+outputs:
+  is-valid:
+    description: "Whether the title is valid."
+  valid-title:
+    description: "Updated PR Title that is valid."
+  suggested-diff:
+    description: "A diff block that contains invalid and valid titles."
+runs:
+  using: "node20"
+  main: "index.js"
