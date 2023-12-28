@@ -46,8 +46,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Validate PR Use Cases
-      uses: nivisi/conventional_pull_requests@1.0.0
+    - name: Validate PR Name
+      uses: nivisi/conventional_pull_requests@1.0.0+2
       with:
          # GitHub Access Token
          # Required. Default is ${{ github.token }}
@@ -96,5 +96,5 @@ Contributions to improve the Validator GitHub Action are welcome. Feel free to f
 - Allow to restrict ticket prefixes
 
 <!-- References -->
-[version-img]: https://img.shields.io/badge/action-v1.0.0+1-black?logo=github
+[version-img]: https://img.shields.io/badge/action-v1.0.0+2-black?logo=github
 [version-url]: https://github.com/marketplace/actions/conventional-pull-requests
