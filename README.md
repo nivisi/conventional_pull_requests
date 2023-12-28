@@ -6,6 +6,8 @@
 
 This GitHub Action designed to automate the validation and correction of Pull Request (PR) titles in collaborative software development environments. This Action helps maintain consistency and clarity in PR naming conventions, ensuring that all PRs adhere to predefined formatting rules.
 
+Checkout this [pull request](https://github.com/nivisi/conventional_pull_requests_showcase/pull/1) for an example.
+
 ## Features
 
 - Validation: Checks if PR titles conform to specified formatting rules.
